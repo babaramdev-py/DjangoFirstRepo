@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 {% extends 'basic_app/base.html' %}
 {% block body_block %}
+    <br>
+    <br>
     <div class="p-5 mb-4 bg-light rounded-3">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">Django Trial Implementation</h1>
           <p class="col-md-8 fs-4">Hello Friend! You can login and sign up!</p>
-          <button action = "https://www.google.com" class="btn btn-primary btn-lg" type="button">Click Here to go to GOOGLE.COM</button>
+          <button class="btn btn-light btn-lg" type="button">
+            <a href="https://www.google.com">Click Here to go to Google</a>
+        </button>
         </div>
       </div>
 {% endblock %}

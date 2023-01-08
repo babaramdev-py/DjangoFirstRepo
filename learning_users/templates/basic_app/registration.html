@@ -2,21 +2,26 @@
 {% load staticfiles %}
 
 {% block body_block %}
-    <div class="jumbotron">
-        {% if registered %}
+<br><br>
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Registration Page!</h1>
+          {% if registered %}
             <h2>Thanks!</h2>
         {% else %}
             <h1>Register here</h1>
-            <h2>Fill out the form!</h2>
             
             <form action="" method="post" enctype = 'multipart/form-data'>
                 {% csrf_token %}
                 {{user_form.as_p}}
                 {{ profile_form.as_p }}
-                <input type="submit" value="register">
+                <input type="submit" value="Register">
             </form>
         {% endif %}
-    </div>
+        </div>
+      </div>
+        
+    
 
 
 
