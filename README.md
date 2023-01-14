@@ -1,4 +1,4 @@
-This project has utilised Django 1.10 as the tech stack on the back end. HTML and BS-5 on the FrontEnd have been implemented.
+# This project has utilised Django 1.10 as the tech stack on the back end. HTML and BS-5 on the FrontEnd have been implemented.
 
 I have learned quite a lot while working with Logins and Authentication:
 1.) I learned how much encryption matters and hashing passwords is super important while working.
